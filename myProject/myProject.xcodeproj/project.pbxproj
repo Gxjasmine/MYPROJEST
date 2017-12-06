@@ -17,6 +17,14 @@
 		1B2717C71FD7BE490000EB24 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2717C61FD7BE490000EB24 /* Constant.swift */; };
 		1B2717C91FD7C35C0000EB24 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2717C81FD7C35C0000EB24 /* Enum.swift */; };
 		1B2717CB1FD7C8530000EB24 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2717CA1FD7C8530000EB24 /* Utils.swift */; };
+		1B2717CE1FD7CE360000EB24 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2717CD1FD7CE360000EB24 /* BaseViewController.swift */; };
+		1B2717D21FD7CF6E0000EB24 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2717D11FD7CF6E0000EB24 /* SettingViewController.swift */; };
+		1B2717D41FD7CFAF0000EB24 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B2717D31FD7CFAF0000EB24 /* Settings.storyboard */; };
+		1B2717D61FD7D7D50000EB24 /* nextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2717D51FD7D7D50000EB24 /* nextTableViewCell.swift */; };
+		1B2717D81FD7D7E50000EB24 /* swichTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2717D71FD7D7E50000EB24 /* swichTableViewCell.swift */; };
+		1B2717DD1FD7DAB30000EB24 /* MyTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2717DC1FD7DAB30000EB24 /* MyTableViewDelegate.swift */; };
+		1B2717DF1FD7DAE40000EB24 /* MyViewDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2717DE1FD7DAE40000EB24 /* MyViewDatasource.swift */; };
+		1B2717E31FD7E2DD0000EB24 /* ViedoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2717E21FD7E2DD0000EB24 /* ViedoViewController.swift */; };
 		1F0EC10B84EA29598258CF8A /* Pods_myProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1617B108AB93864FCAE14AC4 /* Pods_myProjectTests.framework */; };
 		988CA217929B5BD70A345B62 /* Pods_myProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A0908B65204553D545CB8 /* Pods_myProjectUITests.framework */; };
 		ECB033A77EA846A68CA2AE79 /* Pods_myProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B022A82AEE711134A4BF83CB /* Pods_myProject.framework */; };
@@ -58,6 +66,14 @@
 		1B2717C61FD7BE490000EB24 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		1B2717C81FD7C35C0000EB24 /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
 		1B2717CA1FD7C8530000EB24 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		1B2717CD1FD7CE360000EB24 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		1B2717D11FD7CF6E0000EB24 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		1B2717D31FD7CFAF0000EB24 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		1B2717D51FD7D7D50000EB24 /* nextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nextTableViewCell.swift; sourceTree = "<group>"; };
+		1B2717D71FD7D7E50000EB24 /* swichTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swichTableViewCell.swift; sourceTree = "<group>"; };
+		1B2717DC1FD7DAB30000EB24 /* MyTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewDelegate.swift; sourceTree = "<group>"; };
+		1B2717DE1FD7DAE40000EB24 /* MyViewDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewDatasource.swift; sourceTree = "<group>"; };
+		1B2717E21FD7E2DD0000EB24 /* ViedoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViedoViewController.swift; sourceTree = "<group>"; };
 		2F3A0908B65204553D545CB8 /* Pods_myProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5398014A6C9FCFA662CD9653 /* Pods-myProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myProjectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-myProjectUITests/Pods-myProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
 		82DCA76F9D8BCD0D025CC8A2 /* Pods-myProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-myProject/Pods-myProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -120,10 +136,12 @@
 		1B2717961FD7B9260000EB24 /* myProject */ = {
 			isa = PBXGroup;
 			children = (
+				1B2717CF1FD7CECB0000EB24 /* Controllers */,
+				1B2717CC1FD7CDC00000EB24 /* Base */,
 				1B2717C51FD7BE060000EB24 /* Conmon */,
 				1B2717971FD7B9260000EB24 /* AppDelegate.swift */,
-				1B2717991FD7B9260000EB24 /* ViewController.swift */,
 				1B27179B1FD7B9260000EB24 /* Main.storyboard */,
+				1B2717D31FD7CFAF0000EB24 /* Settings.storyboard */,
 				1B27179E1FD7B9270000EB24 /* Assets.xcassets */,
 				1B2717A01FD7B9270000EB24 /* LaunchScreen.storyboard */,
 				1B2717A31FD7B9270000EB24 /* Info.plist */,
@@ -157,6 +175,52 @@
 				1B2717CA1FD7C8530000EB24 /* Utils.swift */,
 			);
 			path = Conmon;
+			sourceTree = "<group>";
+		};
+		1B2717CC1FD7CDC00000EB24 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1B2717CD1FD7CE360000EB24 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		1B2717CF1FD7CECB0000EB24 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1B2717E01FD7E2AD0000EB24 /* PlayView */,
+				1B2717D91FD7DA3C0000EB24 /* mainView */,
+				1B2717D01FD7CEE70000EB24 /* Setting */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1B2717D01FD7CEE70000EB24 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				1B2717D11FD7CF6E0000EB24 /* SettingViewController.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		1B2717D91FD7DA3C0000EB24 /* mainView */ = {
+			isa = PBXGroup;
+			children = (
+				1B2717991FD7B9260000EB24 /* ViewController.swift */,
+				1B2717D51FD7D7D50000EB24 /* nextTableViewCell.swift */,
+				1B2717D71FD7D7E50000EB24 /* swichTableViewCell.swift */,
+				1B2717DC1FD7DAB30000EB24 /* MyTableViewDelegate.swift */,
+				1B2717DE1FD7DAE40000EB24 /* MyViewDatasource.swift */,
+			);
+			path = mainView;
+			sourceTree = "<group>";
+		};
+		1B2717E01FD7E2AD0000EB24 /* PlayView */ = {
+			isa = PBXGroup;
+			children = (
+				1B2717E21FD7E2DD0000EB24 /* ViedoViewController.swift */,
+			);
+			path = PlayView;
 			sourceTree = "<group>";
 		};
 		CFC755681BF29B526A658AA7 /* Pods */ = {
@@ -301,6 +365,7 @@
 				1B2717A21FD7B9270000EB24 /* LaunchScreen.storyboard in Resources */,
 				1B27179F1FD7B9270000EB24 /* Assets.xcassets in Resources */,
 				1B27179D1FD7B9260000EB24 /* Main.storyboard in Resources */,
+				1B2717D41FD7CFAF0000EB24 /* Settings.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,9 +530,16 @@
 			files = (
 				1B2717CB1FD7C8530000EB24 /* Utils.swift in Sources */,
 				1B27179A1FD7B9260000EB24 /* ViewController.swift in Sources */,
+				1B2717E31FD7E2DD0000EB24 /* ViedoViewController.swift in Sources */,
+				1B2717D81FD7D7E50000EB24 /* swichTableViewCell.swift in Sources */,
 				1B2717981FD7B9260000EB24 /* AppDelegate.swift in Sources */,
 				1B2717C91FD7C35C0000EB24 /* Enum.swift in Sources */,
+				1B2717D61FD7D7D50000EB24 /* nextTableViewCell.swift in Sources */,
+				1B2717DF1FD7DAE40000EB24 /* MyViewDatasource.swift in Sources */,
 				1B2717C71FD7BE490000EB24 /* Constant.swift in Sources */,
+				1B2717D21FD7CF6E0000EB24 /* SettingViewController.swift in Sources */,
+				1B2717DD1FD7DAB30000EB24 /* MyTableViewDelegate.swift in Sources */,
+				1B2717CE1FD7CE360000EB24 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
