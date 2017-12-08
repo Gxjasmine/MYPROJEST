@@ -25,6 +25,7 @@
 		1B2717DD1FD7DAB30000EB24 /* MyTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2717DC1FD7DAB30000EB24 /* MyTableViewDelegate.swift */; };
 		1B2717DF1FD7DAE40000EB24 /* MyViewDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2717DE1FD7DAE40000EB24 /* MyViewDatasource.swift */; };
 		1B2717E31FD7E2DD0000EB24 /* ViedoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2717E21FD7E2DD0000EB24 /* ViedoViewController.swift */; };
+		1BBD3D001FDA2DCA00B7BE6C /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBD3CFF1FDA2DCA00B7BE6C /* SignInViewController.swift */; };
 		1F0EC10B84EA29598258CF8A /* Pods_myProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1617B108AB93864FCAE14AC4 /* Pods_myProjectTests.framework */; };
 		988CA217929B5BD70A345B62 /* Pods_myProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A0908B65204553D545CB8 /* Pods_myProjectUITests.framework */; };
 		ECB033A77EA846A68CA2AE79 /* Pods_myProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B022A82AEE711134A4BF83CB /* Pods_myProject.framework */; };
@@ -74,6 +75,7 @@
 		1B2717DC1FD7DAB30000EB24 /* MyTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewDelegate.swift; sourceTree = "<group>"; };
 		1B2717DE1FD7DAE40000EB24 /* MyViewDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewDatasource.swift; sourceTree = "<group>"; };
 		1B2717E21FD7E2DD0000EB24 /* ViedoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViedoViewController.swift; sourceTree = "<group>"; };
+		1BBD3CFF1FDA2DCA00B7BE6C /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		2F3A0908B65204553D545CB8 /* Pods_myProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5398014A6C9FCFA662CD9653 /* Pods-myProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myProjectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-myProjectUITests/Pods-myProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
 		82DCA76F9D8BCD0D025CC8A2 /* Pods-myProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-myProject/Pods-myProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 		1B2717CF1FD7CECB0000EB24 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1BBD3CFD1FDA2D9900B7BE6C /* SignIn */,
 				1B2717E01FD7E2AD0000EB24 /* PlayView */,
 				1B2717D91FD7DA3C0000EB24 /* mainView */,
 				1B2717D01FD7CEE70000EB24 /* Setting */,
@@ -221,6 +224,14 @@
 				1B2717E21FD7E2DD0000EB24 /* ViedoViewController.swift */,
 			);
 			path = PlayView;
+			sourceTree = "<group>";
+		};
+		1BBD3CFD1FDA2D9900B7BE6C /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				1BBD3CFF1FDA2DCA00B7BE6C /* SignInViewController.swift */,
+			);
+			path = SignIn;
 			sourceTree = "<group>";
 		};
 		CFC755681BF29B526A658AA7 /* Pods */ = {
@@ -533,6 +544,7 @@
 				1B2717E31FD7E2DD0000EB24 /* ViedoViewController.swift in Sources */,
 				1B2717D81FD7D7E50000EB24 /* swichTableViewCell.swift in Sources */,
 				1B2717981FD7B9260000EB24 /* AppDelegate.swift in Sources */,
+				1BBD3D001FDA2DCA00B7BE6C /* SignInViewController.swift in Sources */,
 				1B2717C91FD7C35C0000EB24 /* Enum.swift in Sources */,
 				1B2717D61FD7D7D50000EB24 /* nextTableViewCell.swift in Sources */,
 				1B2717DF1FD7DAE40000EB24 /* MyViewDatasource.swift in Sources */,

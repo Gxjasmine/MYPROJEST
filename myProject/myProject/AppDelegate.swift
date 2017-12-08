@@ -12,8 +12,9 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    private(set) var navigationController : UINavigationController?
-
+    var navigationController : UINavigationController?
+    var sssss:String = "sssss"
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -25,16 +26,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         application.statusBarStyle = .lightContent
         application.isStatusBarHidden = false
         
-        
-        navigationController = Enum.STORYBOARDS.MAIN_STORYBOARD.instantiateInitialViewController() as? UINavigationController
+        initRootViewController()
 
-        
-        window?.rootViewController = navigationController
-        window?.makeKeyAndVisible()
-        
         return true
     }
 
+    func initRootViewController() {
+//        navigationController = Enum.STORYBOARDS.MAIN_STORYBOARD.instantiateInitialViewController() as? UINavigationController
+        if true {
+            
+            let singinVC:SignInViewController = (Enum.STORYBOARDS.MAIN_STORYBOARD.instantiateViewController(withIdentifier: "SignInViewControllerID") as? SignInViewController)!
+            
+            navigationController = UINavigationController(rootViewController: singinVC)
+            
+            window?.rootViewController = singinVC
+            
+            window?.makeKeyAndVisible()
+        }
+        
+    }
+    
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
