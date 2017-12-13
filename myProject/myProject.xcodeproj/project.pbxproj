@@ -25,6 +25,8 @@
 		1B2717DD1FD7DAB30000EB24 /* MyTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2717DC1FD7DAB30000EB24 /* MyTableViewDelegate.swift */; };
 		1B2717DF1FD7DAE40000EB24 /* MyViewDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2717DE1FD7DAE40000EB24 /* MyViewDatasource.swift */; };
 		1B2717E31FD7E2DD0000EB24 /* ViedoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2717E21FD7E2DD0000EB24 /* ViedoViewController.swift */; };
+		1B9EAE231FDE6506005A5AF1 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9EAE221FDE6506005A5AF1 /* Camera.swift */; };
+		1B9EAE261FDE7465005A5AF1 /* ACBaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9EAE251FDE7465005A5AF1 /* ACBaseService.swift */; };
 		1BBD3D001FDA2DCA00B7BE6C /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBD3CFF1FDA2DCA00B7BE6C /* SignInViewController.swift */; };
 		1F0EC10B84EA29598258CF8A /* Pods_myProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1617B108AB93864FCAE14AC4 /* Pods_myProjectTests.framework */; };
 		988CA217929B5BD70A345B62 /* Pods_myProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A0908B65204553D545CB8 /* Pods_myProjectUITests.framework */; };
@@ -75,6 +77,8 @@
 		1B2717DC1FD7DAB30000EB24 /* MyTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewDelegate.swift; sourceTree = "<group>"; };
 		1B2717DE1FD7DAE40000EB24 /* MyViewDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewDatasource.swift; sourceTree = "<group>"; };
 		1B2717E21FD7E2DD0000EB24 /* ViedoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViedoViewController.swift; sourceTree = "<group>"; };
+		1B9EAE221FDE6506005A5AF1 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		1B9EAE251FDE7465005A5AF1 /* ACBaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACBaseService.swift; sourceTree = "<group>"; };
 		1BBD3CFF1FDA2DCA00B7BE6C /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		2F3A0908B65204553D545CB8 /* Pods_myProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5398014A6C9FCFA662CD9653 /* Pods-myProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myProjectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-myProjectUITests/Pods-myProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -138,6 +142,8 @@
 		1B2717961FD7B9260000EB24 /* myProject */ = {
 			isa = PBXGroup;
 			children = (
+				1B9EAE241FDE73B4005A5AF1 /* Service */,
+				1B9EAE211FDE6499005A5AF1 /* model */,
 				1B2717CF1FD7CECB0000EB24 /* Controllers */,
 				1B2717CC1FD7CDC00000EB24 /* Base */,
 				1B2717C51FD7BE060000EB24 /* Conmon */,
@@ -224,6 +230,22 @@
 				1B2717E21FD7E2DD0000EB24 /* ViedoViewController.swift */,
 			);
 			path = PlayView;
+			sourceTree = "<group>";
+		};
+		1B9EAE211FDE6499005A5AF1 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				1B9EAE221FDE6506005A5AF1 /* Camera.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		1B9EAE241FDE73B4005A5AF1 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				1B9EAE251FDE7465005A5AF1 /* ACBaseService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 		1BBD3CFD1FDA2D9900B7BE6C /* SignIn */ = {
@@ -543,6 +565,7 @@
 				1B27179A1FD7B9260000EB24 /* ViewController.swift in Sources */,
 				1B2717E31FD7E2DD0000EB24 /* ViedoViewController.swift in Sources */,
 				1B2717D81FD7D7E50000EB24 /* swichTableViewCell.swift in Sources */,
+				1B9EAE261FDE7465005A5AF1 /* ACBaseService.swift in Sources */,
 				1B2717981FD7B9260000EB24 /* AppDelegate.swift in Sources */,
 				1BBD3D001FDA2DCA00B7BE6C /* SignInViewController.swift in Sources */,
 				1B2717C91FD7C35C0000EB24 /* Enum.swift in Sources */,
@@ -551,6 +574,7 @@
 				1B2717C71FD7BE490000EB24 /* Constant.swift in Sources */,
 				1B2717D21FD7CF6E0000EB24 /* SettingViewController.swift in Sources */,
 				1B2717DD1FD7DAB30000EB24 /* MyTableViewDelegate.swift in Sources */,
+				1B9EAE231FDE6506005A5AF1 /* Camera.swift in Sources */,
 				1B2717CE1FD7CE360000EB24 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

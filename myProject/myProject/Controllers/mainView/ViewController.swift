@@ -21,6 +21,7 @@ class ViewController: BaseViewController {
         // Do any additional setup after loading the view, typically from a nib.
         self.title = "MY VIEW"
         setupViewModel()
+        ACBaseService().downLoadFw()
     }
     
     private func setupViewModel() {

@@ -1,12 +1,23 @@
 PODS:
+  - Alamofire (4.6.0)
   - AssistantKit (0.4.1)
+  - Realm (2.10.0):
+    - Realm/Headers (= 2.10.0)
+  - Realm/Headers (2.10.0)
+  - RealmSwift (2.10.0):
+    - Realm (= 2.10.0)
 
 DEPENDENCIES:
+  - Alamofire (~> 4.4)
   - AssistantKit
+  - RealmSwift (= 2.10.0)
 
 SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
   AssistantKit: 9ee71039dffa9dc050de945258e50e3e6bb20d5c
+  Realm: 98b3a25643cf6b3e07d2b99fb43fe0eb9c801dec
+  RealmSwift: 34073ad3a31232bbaf7c0db898c037940284cba2
 
-PODFILE CHECKSUM: b44a94c38e2122077c8c78503c8398e7683a3a58
+PODFILE CHECKSUM: ed54c78eda569f3a39df3fde3bfc802ff852a6c0
 
 COCOAPODS: 1.2.1
