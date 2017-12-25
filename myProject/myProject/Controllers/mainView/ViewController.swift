@@ -13,7 +13,8 @@ class ViewController: BaseViewController {
     var menuButton:UIButton? = nil
     var mytableDelagate:MyTableViewDelegate?
     var mytableDatasource:MyViewDatasource?
-
+    var downtASK:ACBaseService?
+    
     @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
@@ -21,7 +22,9 @@ class ViewController: BaseViewController {
         // Do any additional setup after loading the view, typically from a nib.
         self.title = "MY VIEW"
         setupViewModel()
-        ACBaseService().downLoadFw()
+       downtASK = ACBaseService()
+       downtASK?.downLoadFw()
+
     }
     
     private func setupViewModel() {

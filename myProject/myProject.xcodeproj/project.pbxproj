@@ -25,6 +25,9 @@
 		1B2717DD1FD7DAB30000EB24 /* MyTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2717DC1FD7DAB30000EB24 /* MyTableViewDelegate.swift */; };
 		1B2717DF1FD7DAE40000EB24 /* MyViewDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2717DE1FD7DAE40000EB24 /* MyViewDatasource.swift */; };
 		1B2717E31FD7E2DD0000EB24 /* ViedoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2717E21FD7E2DD0000EB24 /* ViedoViewController.swift */; };
+		1B949B0E1FE280C1001CD1B0 /* ACBaseService+request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B949B0D1FE280C1001CD1B0 /* ACBaseService+request.swift */; };
+		1B9BFEF51FF0A1B600E13A5F /* CurrentOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9BFEF31FF0A1B600E13A5F /* CurrentOperation.swift */; };
+		1B9BFEF61FF0A1B600E13A5F /* NetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9BFEF41FF0A1B600E13A5F /* NetworkOperation.swift */; };
 		1B9EAE231FDE6506005A5AF1 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9EAE221FDE6506005A5AF1 /* Camera.swift */; };
 		1B9EAE261FDE7465005A5AF1 /* ACBaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9EAE251FDE7465005A5AF1 /* ACBaseService.swift */; };
 		1BBD3D001FDA2DCA00B7BE6C /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBD3CFF1FDA2DCA00B7BE6C /* SignInViewController.swift */; };
@@ -77,6 +80,9 @@
 		1B2717DC1FD7DAB30000EB24 /* MyTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewDelegate.swift; sourceTree = "<group>"; };
 		1B2717DE1FD7DAE40000EB24 /* MyViewDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewDatasource.swift; sourceTree = "<group>"; };
 		1B2717E21FD7E2DD0000EB24 /* ViedoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViedoViewController.swift; sourceTree = "<group>"; };
+		1B949B0D1FE280C1001CD1B0 /* ACBaseService+request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ACBaseService+request.swift"; sourceTree = "<group>"; };
+		1B9BFEF31FF0A1B600E13A5F /* CurrentOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentOperation.swift; sourceTree = "<group>"; };
+		1B9BFEF41FF0A1B600E13A5F /* NetworkOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkOperation.swift; sourceTree = "<group>"; };
 		1B9EAE221FDE6506005A5AF1 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
 		1B9EAE251FDE7465005A5AF1 /* ACBaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACBaseService.swift; sourceTree = "<group>"; };
 		1BBD3CFF1FDA2DCA00B7BE6C /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
@@ -244,6 +250,9 @@
 			isa = PBXGroup;
 			children = (
 				1B9EAE251FDE7465005A5AF1 /* ACBaseService.swift */,
+				1B949B0D1FE280C1001CD1B0 /* ACBaseService+request.swift */,
+				1B9BFEF31FF0A1B600E13A5F /* CurrentOperation.swift */,
+				1B9BFEF41FF0A1B600E13A5F /* NetworkOperation.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -564,6 +573,7 @@
 				1B2717CB1FD7C8530000EB24 /* Utils.swift in Sources */,
 				1B27179A1FD7B9260000EB24 /* ViewController.swift in Sources */,
 				1B2717E31FD7E2DD0000EB24 /* ViedoViewController.swift in Sources */,
+				1B9BFEF51FF0A1B600E13A5F /* CurrentOperation.swift in Sources */,
 				1B2717D81FD7D7E50000EB24 /* swichTableViewCell.swift in Sources */,
 				1B9EAE261FDE7465005A5AF1 /* ACBaseService.swift in Sources */,
 				1B2717981FD7B9260000EB24 /* AppDelegate.swift in Sources */,
@@ -571,10 +581,12 @@
 				1B2717C91FD7C35C0000EB24 /* Enum.swift in Sources */,
 				1B2717D61FD7D7D50000EB24 /* nextTableViewCell.swift in Sources */,
 				1B2717DF1FD7DAE40000EB24 /* MyViewDatasource.swift in Sources */,
+				1B949B0E1FE280C1001CD1B0 /* ACBaseService+request.swift in Sources */,
 				1B2717C71FD7BE490000EB24 /* Constant.swift in Sources */,
 				1B2717D21FD7CF6E0000EB24 /* SettingViewController.swift in Sources */,
 				1B2717DD1FD7DAB30000EB24 /* MyTableViewDelegate.swift in Sources */,
 				1B9EAE231FDE6506005A5AF1 /* Camera.swift in Sources */,
+				1B9BFEF61FF0A1B600E13A5F /* NetworkOperation.swift in Sources */,
 				1B2717CE1FD7CE360000EB24 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
